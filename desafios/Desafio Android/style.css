@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+body {
+    background-color: green;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(139, 226, 139), rgb(1, 97, 1));
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 7px;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+
+header > nav {
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+main {
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 7px black;
+}
+
+main > h1 {
+    color: green;
+    text-shadow: 2px 2px 3px black;
+}
+
+h2 {
+    color: darkgreen;
+    background-color: green;
+    padding: 10px;
+    text-shadow: 2px 2px 3px black;
+}
+
+main > p {
+    color: black;
+    text-align: justify;
+}
+
+section#extra {
+    background-color: rgba(0, 212, 0, 0.322);
+    border-radius: 10px;
+    width: 1200px;
+    margin: auto;
+}
+
+section#extra > h4 {
+    color: white;
+    text-align: justify;
+    background-color: rgba(0, 128, 0, 0.733);
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+section#extra > p {
+    text-align: justify;
+    padding: 10px;
+}
+
+#filme {
+    background-color: darkgreen;
+}
+
+#clip {
+    padding: 40px;
+    margin: 30px;
+}
+
+p.fotos {
+    text-align: center;
+}
+
+main {
+    margin: auto;
+}
+
+footer {
+    background-color: darkgreen;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+footer > p {
+    text-align: center;
+}
+
+li::before {
+    content: '✔';
+}
+
+#lista {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 0 1000px;
+}
+
+nav {
+    position: absolute;
+}
+
+ul > nav#lista {
+    display: inline-block;
+}
