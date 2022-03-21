@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte-cordel: 'Passion One', 'cursive';
     --fonte-texto: 'Sriracha', 'cursive';
 }
@@ -17,18 +18,20 @@
 html, body {
     min-height: 100%;
     background-color: darkgrey;
+    font-family: var(--fonte1);
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-    font-family: var(--fonte-cordel);
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte-cordel);
+    font-size: 10vw
 }
 
 header > p {
@@ -50,6 +53,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte-texto);
+    font-size: 4vw;
 }
 
 section.normal {
@@ -63,7 +68,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.255);
 }
 
